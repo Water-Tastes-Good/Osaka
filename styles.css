@@ -1,4 +1,4 @@
-@font-face {
+1z@font-face {
     font-family: "VV";
     src: url(VCR_OSD_MONO_1.001.ttf);
 }
@@ -6,7 +6,7 @@ tr:nth-child(even) {background-color: #ffffff00;}
 tr:nth-child(odd) {background-color: #ffffff00;}
 
 a:hover{
-    color: rgb(0, 44, 85);
+    color: rgba(0, 0, 0, 0.897);
     -webkit-text-stroke: 2px rgb(0, 0, 0);
 
 }
@@ -14,7 +14,7 @@ a:hover{
 
 
 body{
-    background-image: url(osaka.gif);
+    background-image: url(plums.gif);
     font-family: VV;
     
 
@@ -29,15 +29,15 @@ body{
 h1{
     text-align: center;
 
-    font-size: 720%;
+    font-size: 900%;
 
 
 
-    -webkit-text-stroke: 7px black;
-    color: rgb(155, 7, 7);
-    text-shadow: -5px -6px 6px #000000;
-
-    margin-bottom: 10%;
+    -webkit-text-stroke: 3px rgb(24, 18, 18);
+    color: rgba(167, 50, 50, 0.438);
+    text-shadow: -10px -4px 6px #463535;
+    margin-top: 3%;
+    margin-bottom: 4%;
 }
 
 div.options{
@@ -50,12 +50,10 @@ th,td {
 
     
     border-style: none;
-    font-size: 450%;
+    font-size: 500%;
     border-radius: 10px;
 
-    padding: auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 15%;
 }
 
 
@@ -63,5 +61,5 @@ a {
     text-decoration: none;
     text-shadow: -3px -2px 3px #000000;
     -webkit-text-stroke: 2px black;
-    color: rgb(235, 239, 240);
+    color: rgba(141, 34, 34, 0.246);
 }
